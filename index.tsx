@@ -3,8 +3,6 @@ const app = express()
 
 import homePage from './views/homePage'
 
-console.log(homePage)
-
 app.get('/', (req, res) => {
 	res.send(homePage)
 })
